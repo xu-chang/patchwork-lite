@@ -1,6 +1,6 @@
 # patchwork-lite
 
-Modified from the R project "Patchwork" on http://patchwork.r-forge.r-project.org/. 
+Modified from the R package "Patchwork" on http://patchwork.r-forge.r-project.org/. 
 patchwork-lite can read VCF results from newer versions of Samtools and BcfTools (Tested on v1.3 on both) without the need for mpileup files to lower the disk-space requirements.
 
 * Compared to the original tool, I made change to patchwork.plot.r and patchwork.alleledata.r, added a python script mpile2alleles.py for reading VCF files.
