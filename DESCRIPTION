@@ -1,0 +1,18 @@
+Package: patchwork
+Type: Package
+Title: Allele-specific Copy Number Analysis of whole genome data
+Version: 2.4
+Date: 2012-30-08
+Author: Markus Mayrhofer, Sebastian DiLorenzo
+Maintainer: Markus Mayrhofer <Markus.Mayrhofer@medsci.uu.se>
+Description: Performs a allele-specific copy number analysis of whole genome data.
+License: GPL-2
+#Imports: patchworkData
+Suggests: DNAcopy
+Repository: R-Forge
+Repository/R-Forge/Project: patchwork
+Repository/R-Forge/Revision: 214
+Repository/R-Forge/DateTimeStamp: 2014-09-04 12:07:32
+Date/Publication: 2014-09-04 12:07:32
+Packaged: 2014-09-04 14:15:27 UTC; rforge
+Depends: R (>= 2.10)
