@@ -20,3 +20,5 @@ And then run plot function like this:
 patchwork.plot(Tumor_bam, Tumor_vcf, Normal_bam, Normal_vcf, Alpha=alpha, SD=sd)
 ```
 
+## Acknowledgements
+Wenlong JIA (wenlongkxm@gmail.com)
