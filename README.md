@@ -5,6 +5,7 @@ patchwork-lite can read VCF results from newer versions of Samtools and BcfTools
 
 * Compared to the original tool, I made change to patchwork.plot.r and patchwork.alleledata.r, added a python script mpile2alleles.py for reading VCF files.
 * Rd documentation files are not changed.
+* Only takes gz compressed vcf results as `patchwork.plot()` input , i.e. vcf.gz or vcf.bgz files.
 
 ## Usage：
 Prepare the VCF file like this:
@@ -17,7 +18,7 @@ so that we have only SNV lines and DP4 field is in the file.
 
 And then run plot function like this:
 ```R
-patchwork.plot(Tumor_bam, Tumor_vcf, Normal_bam, Normal_vcf, Alpha=alpha, SD=sd)
+patchwork.plot(Tumor_bam, Tumor_vcf_gz, Normal_bam, Normal_vcf_gz, Alpha=alpha, SD=sd)
 ```
 
 ## Acknowledgements
