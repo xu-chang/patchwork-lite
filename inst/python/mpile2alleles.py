@@ -6,7 +6,9 @@
 # usage: this.py <vcf> <hg_build>
 
 import sys
-with open(sys.argv[1]) as vcf:
+import gzip
+
+with gzip.open(sys.argv[1]) as vcf:
     try:
         for l in vcf:
             if l[0] == '#':
